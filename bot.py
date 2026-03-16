@@ -2,8 +2,8 @@ import telebot
 import requests
 import os
 
-BOT_TOKEN = os.getenv("8781391621:AAFIKfCWbYPnOmB7DPx5QARuTSur5jpw8es")
-API_KEY = os.getenv("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")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
